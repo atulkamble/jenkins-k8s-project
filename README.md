@@ -28,7 +28,7 @@ GitHub → Jenkins → Docker Hub → Kubernetes Cluster
 ## 📁 Project Repository Structure
 
 ```
-jenkins-k8s-cicd-project/
+jenkins-k8s-project/
 │
 ├── app/
 │   ├── app.py
@@ -164,7 +164,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/yourusername/jenkins-k8s-cicd-project.git'
+                git 'https://github.com/atulkamble/jenkins-k8s-project'
             }
         }
 
